@@ -1,4 +1,7 @@
 /* Insert your styles here */
+html {
+  scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -71,7 +74,7 @@
 .about_container {
   background-image: url(../../media/seating.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   height: 600px;
 }
@@ -106,11 +109,143 @@
   vertical-align: bottom;
   font-size: 25px;
   color: white;
-  font-family: 'Lato'
+  font-family: 'Lato';
 }
 
-.seating_container {
-  height: 600px;
+.parallax_wrapper {
   background-image: url(../../media/Cinema.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.parallax_content {
+  padding-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.parallax_content h1{
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat'
+}
+
+.parallax_content_img {
+  display: block;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.parallax_content_img img {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.standard {
+  display: block;
+  float: left;
+  padding-left: 10%;
+}
+
+.standard h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Lato';
+  font-size: 30px;
+  color: white;
+}
+
+.premium h2 {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 30px;
+  color: white;
+}
+
+
+.premium {
+  display: block;
+  float: right;
+  padding-right: 10%;
+}
+
+.prices_container {
+  display: block;
+  width: 100%;
+  height: 900px;
+}
+
+.prices_content {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: block;
+  float: left;
+}
+
+.prices_content table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 3%;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.prices_img {
+  display: block;
+  float: right;
+  padding-right: 10%;
+  padding-top: 3%
+}
+
+.prices_img img {
+}
+
+
+.prices_container h1{
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+}
+
+.showing_container {
+  display: block;
+  width: 100%;
+  height: 1400px;
+  background-color: grey;
+}
+
+.showing_container h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  padding-left: 25px;
+  padding-top: 25px;
+  color: white;
+
+}
+
+.showing_content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  height: 30%;
+  width: 30%;
+  background-color: red;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+
+.movie img {
+  height: 500px;
+}
+
+.footer {
+  background-color: #101010;
+  color: white;
 }
