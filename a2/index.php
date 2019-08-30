@@ -9,6 +9,7 @@
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
     <script src='../wireframe.js'></script>
 
@@ -21,8 +22,6 @@
   <body>
 
     <header class = "header">
-
-
       <div class = "inner_header">
 
         <div class = "logo_container">
@@ -30,32 +29,38 @@
           <img src='../../media/Logo.png' alt="Logo" />
         </div>
 
+        <nav class = "navigation">
         <ul class="navigation">
-          <a><li>About Us</li></a>
+          <a href="https://google.com"><li>About Us</li></a>
           <a><li>Prices</li></a>
           <a><li>Now Showing</li></a>
           <a><li>Synopsis Area</li></a>
         </ul>
+      </nav>
+
       </div>
-
-
     </header>
 
-    <nav>
-      <div>Put website navigation links here</div>
-    </nav>
-
     <main>
-      <article id='Website Under Construction'>
-    <!-- Creative Commons image sourced from https://pixabay.com/en/maintenance-under-construction-2422173/ and used for educational purposes only -->
-        <img src='../../media/website-under-construction.png' alt='Website Under Construction' />
+      <article class = "about_container">
+        <section class = "about_content">
+          <h1>About Us</h1>
+          <h2>Grand Reopening</h2>
+          <p>Lunardo’s Cinemas is currently undergoing renovations, but don’t fear… as we are doing
+            <br>extensive improvements for a grand reopening, where there are new standards and
+            <br>first class reclining seats, Dolby Atmos dynamics sound system are being installed and
+            <br>3D Dolby vision will be implemented.</p>
+        </section>
       </article>
+      <div class = seating_container>
+        <p>Hello</p>
+      </div>
     </main>
 
     <footer>
       <div>&copy;<script>
         document.write(new Date().getFullYear());
-      </script> Put your name(s), student number(s) and group name here. Last modified <?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
+      </script> Danny Viet Nguyen, s3782953<?= date ("Y F d  H:i", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>.</div>
       <div>Disclaimer: This website is not a real website and is being developed as part of a School of Science Web Programming course at RMIT University in Melbourne, Australia.</div>
       <div><button id='toggleWireframeCSS' onclick='toggleWireframe()'>Toggle Wireframe CSS</button></div>
     </footer>

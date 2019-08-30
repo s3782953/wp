@@ -11,6 +11,8 @@
     height: 80px;
     display: block;
     background-color: #101010;
+    position: sticky;
+    top: 0;
 }
 
 .inner_header {
@@ -64,4 +66,51 @@
 .logo_container img {
   vertical-align: middle;
   height: 100%;
+}
+
+.about_container {
+  background-image: url(../../media/seating.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 600px;
+}
+
+.about_content {
+  display: block;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  float: left;
+}
+
+.about_content h1 {
+  vertical-align: bottom;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 10%;
+  font-family: 'Montserrat'
+}
+
+.about_content h2 {
+  vertical-align: bottom;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 5%;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+
+.about_content p {
+  vertical-align: bottom;
+  font-size: 25px;
+  color: white;
+  font-family: 'Lato'
+}
+
+.seating_container {
+  height: 600px;
+  background-image: url(../../media/Cinema.jpg);
+  background-size: cover;
 }
