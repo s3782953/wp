@@ -4,17 +4,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Assignment 2</title>
-    
+
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+
     <script src='../wireframe.js'></script>
+
+    <style>
+      <?php include("style.css"); // or wherever your css file is located ?>
+    </style>
+
   </head>
 
   <body>
 
-    <header>
-      <div>Put company logo and name here</div>
+    <header class = "header">
+
+
+      <div class = "inner_header">
+
+        <div class = "logo_container">
+          <h1>Lunardo</h1>
+          <img src='../../media/Logo.png' alt="Logo" />
+        </div>
+
+        <ul class="navigation">
+          <a><li>About Us</li></a>
+          <a><li>Prices</li></a>
+          <a><li>Now Showing</li></a>
+          <a><li>Synopsis Area</li></a>
+        </ul>
+      </div>
+
+
     </header>
 
     <nav>
