@@ -199,9 +199,6 @@ html {
   padding-top: 3%
 }
 
-.prices_img img {
-}
-
 
 .prices_container h1{
   padding-left: 25px;
@@ -213,8 +210,9 @@ html {
 .showing_container {
   display: block;
   width: 100%;
-  height: 1400px;
-  background-color: grey;
+  height: 1200px;
+  background-image: url(../../media/Black_Background.jpg);
+  background-size: cover;
 }
 
 .showing_container h1 {
@@ -229,23 +227,51 @@ html {
 .showing_content {
   display: flex;
   flex-wrap: wrap;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .movie {
   height: 30%;
-  width: 30%;
-  background-color: red;
+  width: 40%;
   margin: 0 auto;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 100px;
+  margin: 50px;
+
 }
 
 .movie img {
-  height: 500px;
+  height: 450px;
+}
+
+.movie_img {
+  display: block;
+  float: left;
+  padding-right: 15px;
+}
+
+.movie_text {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 11px;
+  color: white;
+}
+
+.movie_text p {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+.synopsis_container {
+  display: block;
+  height: 600px;
+  background-color: grey;
 }
 
 .footer {
+  padding-top: 25px;
   background-color: #101010;
   color: white;
 }
