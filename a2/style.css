@@ -174,6 +174,8 @@ html {
   display: block;
   width: 100%;
   height: 900px;
+  background-image: url(../../media/Blur_Background.jpg);
+  background-size: cover;
 }
 
 .prices_content {
@@ -182,10 +184,12 @@ html {
   margin-bottom: 100px;
   display: block;
   float: left;
+  color: white;
+  font-size: 20
 }
 
 .prices_content table, th, td {
-  border: 2px solid black;
+  border: 2px solid white;
   border-collapse: collapse;
   padding: 3%;
   font-family: 'Lato';
@@ -205,6 +209,7 @@ html {
   padding-top: 25px;
   font-family: 'Montserrat';
   font-size: 50px;
+  color: white;
 }
 
 .showing_container {
@@ -266,8 +271,102 @@ html {
 
 .synopsis_container {
   display: block;
+  height: 800px;
+  background-image: url(../../media/Cinema.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.synopsis_container h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  padding-left: 25px;
+  padding-top: 25px;
+  color: white;
+}
+
+.synopsis_content {
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+}
+
+.synopsis_text {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 279px;
+  padding: 20px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.synopsis_text p {
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.synopsis_video {
+  display: block;
+  float: right;
+}
+
+.synopsis_buttons_text {
+  display: block;
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: white;
+}
+
+.synopsis_buttons {
+  display: block;
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.synopsis_buttons button {
+  background-color: #101010;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.booking_container {
+  display: block;
   height: 600px;
   background-color: grey;
+}
+
+.booking_container h1 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: white;
+}
+
+.booking_content {
+  display: block;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: 'Lato';
 }
 
 .footer {
