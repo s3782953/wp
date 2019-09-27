@@ -1,0 +1,414 @@
+/* Insert your styles here */
+html {
+  scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: grey;
+  transition: 1.0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+    position: sticky;
+    top: 0;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.navigation {
+  height: 100%;
+  float: right;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.logo_container img {
+  vertical-align: middle;
+  height: 100%;
+}
+
+.about_container {
+  background-image: url(../../media/seating.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.about_content {
+  display: block;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  float: left;
+}
+
+.about_content h1 {
+  vertical-align: bottom;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 10%;
+  font-family: 'Montserrat'
+}
+
+.about_content h2 {
+  vertical-align: bottom;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 5%;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+
+.about_content p {
+  vertical-align: bottom;
+  font-size: 25px;
+  color: white;
+  font-family: 'Lato';
+}
+
+.parallax_wrapper {
+  background-image: url(../../media/Cinema.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.parallax_content {
+  padding-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.parallax_content h1{
+  color: white;
+  font-size: 50px;
+  font-family: 'Montserrat'
+}
+
+.parallax_content_img {
+  display: block;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.parallax_content_img img {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.standard {
+  display: block;
+  float: left;
+  padding-left: 10%;
+}
+
+.standard h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Lato';
+  font-size: 30px;
+  color: white;
+}
+
+.premium h2 {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 30px;
+  color: white;
+}
+
+
+.premium {
+  display: block;
+  float: right;
+  padding-right: 10%;
+}
+
+.prices_container {
+  display: block;
+  width: 100%;
+  height: 900px;
+  background-image: url(../../media/Blur_Background.jpg);
+  background-size: cover;
+}
+
+.prices_content {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: block;
+  float: left;
+  color: white;
+  font-size: 20
+}
+
+.prices_content table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 3%;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.prices_img {
+  display: block;
+  float: right;
+  padding-right: 10%;
+  padding-top: 3%
+}
+
+
+.prices_container h1{
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: white;
+}
+
+.showing_container {
+  display: block;
+  width: 100%;
+  height: 1200px;
+  background-image: url(../../media/Black_Background.jpg);
+  background-size: cover;
+}
+
+.showing_container h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  padding-left: 25px;
+  padding-top: 25px;
+  color: white;
+
+}
+
+.showing_container h3 {
+  font-family: 'Montserrat';
+  padding-left: 25px;
+  padding-top: 25px;
+  color: white;
+
+}
+
+.showing_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.movie {
+  height: 30%;
+  width: 40%;
+  margin: 0 auto;
+  margin: 50px;
+
+}
+
+.movie img {
+  height: 450px;
+}
+
+.movie_img {
+  display: block;
+  float: left;
+  padding-right: 15px;
+}
+
+.movie_text {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 11px;
+  color: white;
+}
+
+.movie_text p {
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+.synopsis_container {
+  display: block;
+  height: 800px;
+  background-image: url(../../media/Cinema.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.synopsis_container h1 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  padding-left: 25px;
+  padding-top: 25px;
+  color: white;
+}
+
+.synopsis_content {
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+}
+
+.synopsis_text {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 279px;
+  padding: 20px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.synopsis_text p {
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.synopsis_video {
+  display: block;
+  float: right;
+}
+
+.synopsis_buttons_text {
+  display: block;
+  float: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: white;
+}
+
+.synopsis_buttons {
+  display: block;
+  float: right;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.synopsis_buttons button {
+  background-color: #101010;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.booking_container {
+  display: block;
+  background-color: grey;
+}
+
+.booking_container h1 {
+  padding: 25px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color: white;
+}
+
+.booking_content {
+  display: block;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: #444648;
+  text-align: center;
+  color: white;
+}
+
+.book_left {
+  width: 45%;
+  padding: 20px;
+  float: left;
+  text-align: left;
+}
+#info_left {
+  padding-top: 20px;
+}
+
+.book_right {
+  width: 45%;
+  padding: 20px;
+  float: left;
+  text-align: middle;
+}
+
+#info_right {
+  padding-top: 80px;
+}
+
+.total {
+  padding-top: 40px;
+}
+
+.footer {
+  padding-top: 25px;
+  background-color: #101010;
+  color: white;
+}
